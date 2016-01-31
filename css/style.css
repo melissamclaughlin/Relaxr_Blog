@@ -139,8 +139,9 @@ li {
   clear: both;
 }
 
-.column2 {
+.aside {
   width: 400px;
+  height:800px;
   margin: 0px 30px 10px 0px;
   background-color: #f0efef;
   padding: 10px 0px 20px 50px;
