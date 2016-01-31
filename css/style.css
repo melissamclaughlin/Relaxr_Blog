@@ -1,6 +1,6 @@
 /*
 Project Name: Relaxr Blog
-Author: Your Name
+Author: Melissa McLaughlin
 Developer @GA in NYC
 */
 
@@ -42,6 +42,156 @@ Developer @GA in NYC
 /* ADDITIONAL STYLES
 /*******************************************/
 
+body {
+    margin: 0 auto;
+    max-width: 980px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+header {
+  background: #033048;
+  height: 100px;
+  width: 980px;
+
+}
+
+img {
+  width: 605px;
+}
+
+h1 {
+  color: #FFF;
+  font-weight: 800;
+  font-size: 48px;
+  padding: 20px 0px 20px 50px
+}
+
+h2 {
+  color: #033048;
+  font-weight: 600;
+  font-size: 40px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  width: 605px;
+}
+
+h3 {
+  color: #033048;
+  font-weight: 800;
+  font-size: 32px;
+}
+
+h4 {
+  float: right;
+  font-size: 24px;
+  font-weight: 400px;
+  margin-right: 50px;
+  padding-bottom: 20px;
+}
+
+h5 {
+  color: #033048;
+  font-weight: 200;
+  font-size: 22px;
+}
+
+p {
+  width: 605px;
+  font-weight: 200;
+  font-size: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 1.3;
+}
+
+hr {
+  width: 635px;
+}
+
+nav { 
+  float:right; 
+  margin-top:20px;
+  color: #FFF;
+}
+
+ul { 
+  list-style:none;
+}
+
+li {
+  color: #f9e42e;
+  margin: 20px 50px 10px 5px;
+  float:right;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.main {
+  background color: #f0efef;
+}
+
+.logo {
+  float: left;
+}
+
+.column1 {
+  width: 700px;
+  margin: 0px 30px 10px 0px;
+  background-color: #f0efef;
+  padding: 10px 0px 20px 50px;
+  float: left;
+  clear: both;
+}
+
+.aside {
+  clear: both;
+  float: right;
+  width: 240px;
+  background-color: #f0efef;
+  margin-left: 10px;
+}
+
+.asidelist {
+  font-weight: 200;
+  font-size: 22px;
+  color: #033048;
+}
+
+.clearfix { display: inline-block; }
+
+}
+
+.footer {
+    background-color: #121212;
+    color: #f9e42e;
+    padding-top: 5px; 
+    padding-left: 40px;
+    padding-bottom: 5px;
+    padding-right: 40px;
+}
+
+.sign {
+    background-color: #f9e42e;
+    padding-top: 20px; 
+    padding-left: 40px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+}
+
+.button2 {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 800;
+    color: #FFFFFF;
+    background-color: #033048;
+    border: 10px;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
 
 
 
