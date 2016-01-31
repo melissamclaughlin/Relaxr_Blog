@@ -26,6 +26,10 @@ Developer @GA in NYC
      height: 0;
 }
 
+.clearfix { display: inline-block; 
+}
+
+
 .clear {
   clear: both;
 }
@@ -80,6 +84,8 @@ h3 {
   color: #033048;
   font-weight: 800;
   font-size: 32px;
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 
 h4 {
@@ -90,11 +96,6 @@ h4 {
   padding-bottom: 20px;
 }
 
-h5 {
-  color: #033048;
-  font-weight: 200;
-  font-size: 22px;
-}
 
 p {
   width: 605px;
@@ -115,20 +116,14 @@ nav {
   color: #FFF;
 }
 
-ul { 
-  list-style:none;
-}
 
 li {
+  list-style:none;
   color: #f9e42e;
   margin: 20px 50px 10px 5px;
   float:right;
   font-size: 24px;
   font-weight: 600;
-}
-
-.main {
-  background color: #f0efef;
 }
 
 .logo {
@@ -144,54 +139,23 @@ li {
   clear: both;
 }
 
-.aside {
-  clear: both;
-  float: right;
-  width: 240px;
+.column2 {
+  width: 400px;
+  margin: 0px 30px 10px 0px;
   background-color: #f0efef;
-  margin-left: 10px;
+  padding: 10px 0px 20px 50px;
+  float: right;
 }
 
-.asidelist {
+#asideUL li {
+  color:#033048;
+  font-size: 24px;
   font-weight: 200;
+}
+
+#aboutTEXT p {
+  color:#033048;
   font-size: 22px;
-  color: #033048;
-}
-
-.clearfix { display: inline-block; }
+  font-weight: 200;
 
 }
-
-.footer {
-    background-color: #121212;
-    color: #f9e42e;
-    padding-top: 5px; 
-    padding-left: 40px;
-    padding-bottom: 5px;
-    padding-right: 40px;
-}
-
-.sign {
-    background-color: #f9e42e;
-    padding-top: 20px; 
-    padding-left: 40px;
-    padding-bottom: 20px;
-    padding-right: 40px;
-}
-
-.button2 {
-    text-align: center;
-    font-size: 12px;
-    font-weight: 800;
-    color: #FFFFFF;
-    background-color: #033048;
-    border: 10px;
-    border-radius: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-
-
-
