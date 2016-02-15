@@ -13,6 +13,7 @@
 
 		<link type="text/css" rel="stylesheet" href="css/style.css"/>
 
+		<script src='http://code.jquery.com/jquery-latest.min.js'></script>
 	</head>
 
 	<body>
@@ -39,8 +40,11 @@
 			<img src="images/blog_photo1.jpg">
 
 			<p><span>L</span>orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed fringilla nunc. Donec elementum velit eget turpis blandit tempus. Ut ultricies, lacus non gravida tincidunt, ex sem dignissim est, ut pulvinar mauris nisi ac nulla. Ut tempus odio quis neque faucibus, quis molestie est cursus. Suspendisse ullamcorper placerat suscipit. Nulla tincidunt arcu eget eleifend aliquam. Sed venenatis fringilla mauris et sagittis. Nullam luctus nibh sed mauris pulvinar, ut scelerisque orci porta.</p>
+			<br>
+			<p id="para1part2"><span>L</span>orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed fringilla nunc. Donec elementum velit eget turpis blandit tempus. Ut ultricies, lacus non gravida tincidunt, ex sem dignissim est, ut pulvinar mauris nisi ac nulla. Ut tempus odio quis neque faucibus, quis molestie est cursus. Suspendisse ullamcorper placerat suscipit. Nulla tincidunt arcu eget eleifend aliquam. Sed venenatis fringilla mauris et sagittis. Nullam luctus nibh sed mauris pulvinar, ut scelerisque orci porta.</p>
 
-			<h4>Read more ></h4>
+			<h4 id="readmore1">Read more ></h4>
+
 			<hr>
 
 			<h2>I traveled across the globe thanks to Relaxr's Excel auomation</h2>
@@ -48,8 +52,10 @@
 			<img src="images/blog_photo2.jpg">
 
 			<p><span>L</span>orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed fringilla nunc. Donec elementum velit eget turpis blandit tempus. Ut ultricies, lacus non gravida tincidunt, ex sem dignissim est, ut pulvinar mauris nisi ac nulla. Ut tempus odio quis neque faucibus, quis molestie est cursus. Suspendisse ullamcorper placerat suscipit. Nulla tincidunt arcu eget eleifend aliquam. Sed venenatis fringilla mauris et sagittis. Nullam luctus nibh sed mauris pulvinar, ut scelerisque orci porta.</p>
+			<br>
+			<p id="para2part2"><span>L</span>orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed fringilla nunc. Donec elementum velit eget turpis blandit tempus. Ut ultricies, lacus non gravida tincidunt, ex sem dignissim est, ut pulvinar mauris nisi ac nulla. Ut tempus odio quis neque faucibus, quis molestie est cursus. Suspendisse ullamcorper placerat suscipit. Nulla tincidunt arcu eget eleifend aliquam. Sed venenatis fringilla mauris et sagittis. Nullam luctus nibh sed mauris pulvinar, ut scelerisque orci porta.</p>
 
-			<h4>Read more ></h4>
+			<h4 id="readmore2">Read more ></h4>
 			<hr>
 		</div>
 
@@ -72,10 +78,10 @@
 			</div>
 
 	<div class="clearfix">
-	<div class="SignUp">
+	<div id="SignUpDisplay"><div id="SignUp"><div class="SignUp">
 		<span class="button2">Sign Up Now!</span>
-		</div>
-		</div>
+		</div></div>
+		</div></div>
 
 <div class="footer">
 			<center>
@@ -89,7 +95,7 @@
 
 
 
-<!--This is a comment. Comments are not displayed in the browser
+<!--
 	<footer>
 			<span class="logo">Relaxr</span>
 
@@ -100,7 +106,26 @@
 
 			<p class="copyright">Copyright 2015. Relaxr.</p>
 	</footer> -->
+<script>
 
+	$("#SignUpDisplay").click( function() { 
+		alert('We are not currently taking sign ups');
+	});
+
+	$("#para1part2").hide()
+	$("#readmore1").click(function(){
+	$("#para1part2").show()
+	$("#para1part2").slideDown();
+	});
+
+	$("#para2part2").hide()
+	$("#readmore2").click(function(){
+	$("#para2part2").show()
+	$("#para2part2").slideDown();
+	});
+
+
+  </script>
 
 	</body>
 </html>
