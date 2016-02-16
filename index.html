@@ -71,6 +71,9 @@
 
 			<h3>About Relaxr</h3>
 			<p id="aboutTEXT">Proin sed justo vel sapien varius auctor. Proin scelerisque massa at luctus tincidunt. Fusce porttitor, sapien sed tincidunt fringilla.</p>
+			<br>
+			<p id="aboutTEXT2">Proin sed justo vel sapien varius auctor. Proin scelerisque massa at luctus tincidunt. Fusce porttitor, sapien sed tincidunt fringilla.</p>
+			<h4 id="readmore3">Read more ></h4>
 			
 			<div id="asideIMG">
 				<img src="images/ad-unit.png">
@@ -108,18 +111,27 @@
 	</footer> -->
 <script>
 
-	$("#SignUpDisplay").click( function() { 
+	$("#SignUpDisplay").click( function(){ 
+		$(".button2").text("No Sign Ups!");
 		alert('We are not currently taking sign ups');
 	});
 
 	$("#para1part2").hide()
 	$("#readmore1").click(function(){
+		$("h4").text("Read Less");
 	$("#para1part2").slideToggle();
 	});
 
 	$("#para2part2").hide()
 	$("#readmore2").click(function(){
+		$("h4").text("Read Less");
 	$("#para2part2").slideToggle();
+	});
+
+	$("#aboutTEXT2").hide()
+	$("#readmore3").click(function(){
+		$("h4").text("Read Less");
+	$("#aboutTEXT2").slideToggle();
 	});
 
 
